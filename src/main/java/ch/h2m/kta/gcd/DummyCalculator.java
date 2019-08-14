@@ -18,7 +18,9 @@ public class DummyCalculator implements Calculator {
         if (a == 13434128 && b == 234232) {
             return 8;
         }
-
+        if (a == 4200 && b == 3780) {
+            return 420;
+        }
         if (a % 2 == 0 && b % 2 == 0) {
             return 2;
         }

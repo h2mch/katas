@@ -21,7 +21,7 @@ class CalculatorTest {
 
     @DisplayName("Greatest Common Divisor")
     @ParameterizedTest(name = "from {0} and {1} should be {3}")
-    @CsvSource({"4,2,2", "8,2,2", "50,30,10", "14,18,2", "36,24,12", "84,72,12", "13434128,234232,8"})
+    @CsvSource({"4,2,2", "8,2,2", "50,30,10", "14,18,2", "36,24,12", "84,72,12", "4200,3780,420", "13434128,234232,8", "24330,131236,2"})
     void gcd(int a, int b, int expect) {
         assertEquals(expect, calculator.gcd(a,b));
     }
