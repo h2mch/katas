@@ -1,6 +1,6 @@
 package ch.h2m.kata.romannumber;
 
-public class ExampleConverter implements Converter {
+public class SwitchCaseConverter implements Converter {
 
     @Override
     public int romanToNumber(String roman) {

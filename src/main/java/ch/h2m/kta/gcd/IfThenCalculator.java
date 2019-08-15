@@ -1,6 +1,6 @@
 package ch.h2m.kta.gcd;
 
-public class DummyCalculator implements Calculator {
+public class IfThenCalculator implements Calculator {
 
 
     @Override

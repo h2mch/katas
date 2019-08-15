@@ -1,7 +1,6 @@
 package ch.h2m.kata.romannumber;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -12,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ConverterTest {
 
-    private Converter converter = new ExampleConverter();
+    private Converter converter = new SwitchCaseConverter();
 
 
     @DisplayName("Roman to numeral")
