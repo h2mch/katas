@@ -1,4 +1,4 @@
-package ch.h2m.kta.gcd;
+package ch.h2m.kata.gcd;
 
 public interface Calculator {
 
@@ -7,8 +7,6 @@ public interface Calculator {
      *
      * gcd(a,b)
      *
-     * @param a
-     * @param b
      * @return gcd(a,b)
      */
     int gcd(int a, int b);

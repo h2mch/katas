@@ -1,4 +1,4 @@
-package ch.h2m.kta.gcd;
+package ch.h2m.kata.gcd;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;

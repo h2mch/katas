@@ -1,4 +1,4 @@
-package ch.h2m.kta.gcd;
+package ch.h2m.kata.gcd;
 
 public class IfThenCalculator implements Calculator {
 
